@@ -1,3 +1,85 @@
-h1{
-color:red;
-}
+h{
+    color:red;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      .phone {
+        
+        margin: 20px;
+       display: flex;
+      flex-direction: column; 
+       
+        align-items: center; 
+       
+      }
+      .row {
+    
+        border: 1px solid purple;
+        margin: 5px; 
+        display: flex;
+        flex-direction: column;
+      }
+      .apple{
+        width: 10vh;
+        height: 10vh;
+        background: red;
+        margin: 5px;
+       display: flex; 
+        flex-direction: row; 
+        border: 2px solid rgb(46, 104, 8);
+
+
+      }
+
+      .peach {
+        width: 10vh;
+        height: 10vh;
+        background: orange;
+        margin: 5px;
+       display: flex; 
+        flex-direction: row; 
+        border: 2px solid pink;
+
+
+      }
+
+      .grape {
+        width: 10vh;
+        height: 10vh;
+        background: rgb(11, 146, 90);
+        margin: 5px;
+       display: flex; 
+        flex-direction: row; 
+        border: 2px solid rgb(156, 48, 142);
+
+
+      }
+      .box {
+        width: 10vh;
+        height: 10vh;
+        background: blue;
+        margin: 5px;
+       display: flex; 
+        flex-direction: row; 
+        border: 2px solid lightpink;
+        
+    }
+    .carrot {
+        width: 10vh;
+        height: 10vh;
+        background: rgb(127, 13, 219);
+        margin: 5px;
+       display: flex; 
+        flex-direction: row; 
+        border: 2px solid rgba(25, 224, 101, 0.603);}
+    body{
+      
+      display:flex;
+       justify-content: center; 
+      align-items: center;
+    }
