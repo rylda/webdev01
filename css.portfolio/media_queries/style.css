@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .phone {
+    
+    margin: 20px;
+   display: flex;
+  flex-direction: column; 
+   
+    align-items: center; 
+   
+  }
+  .row {
+
+    border: 1px solid purple;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+  }
+  .apple{
+    width: 10vh;
+    height: 10vh;
+    background: red;
+    margin: 5px;
+   display: flex; 
+    flex-direction: row; 
+    border: 2px solid rgb(46, 104, 8);
+
+
+  }
