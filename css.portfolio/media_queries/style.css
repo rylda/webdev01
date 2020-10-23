@@ -1,33 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: hsl(249, 79%, 87%);
+  padding: 20px;
+  font-family: Arial;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.main {
+  max-width: 100vmin;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 15px;
+}
+
+
+.column {
+  float: left;
+  width: 50vmin;
+}
+
+ 
+.row:after {
   
-  .phone {
-    
-    margin: 20px;
-   display: flex;
-  flex-direction: column; 
-   
-    align-items: center; 
-   
-  }
-  .row {
-
-    border: 1px solid purple;
-    margin: 5px; 
-    display: flex;
-    flex-direction: column;
-  }
-  .apple{
-    width: 10vh;
-    height: 10vh;
-    background: red;
-    margin: 5px;
-   display: flex; 
-    flex-direction: row; 
-    border: 2px solid rgb(46, 104, 8);
+  display: table;
+  clear: both;
+}
 
 
-  }
+.content {
+  background-color: rgb(202, 144, 178);
+  padding: 10px;
+}
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
