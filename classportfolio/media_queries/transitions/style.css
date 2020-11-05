@@ -1,0 +1,17 @@
+div {
+    width: 500px;
+    height: 500px;
+    background: lightcoral;
+    transition: width 5s;
+  }
+  
+  #div1 {transition-timing-function: linear;}
+  #div2 {transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335) ;}
+ 
+  
+  div:hover {
+    width: 6000px;
+  }
+  html{
+    background-color: chocolate;
+  }

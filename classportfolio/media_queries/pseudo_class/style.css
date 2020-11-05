@@ -1,0 +1,19 @@
+
+
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: rgb(228, 127, 11);
+  }
+  
+  
+  a:hover {
+    color: rgb(15, 107, 27);
+  }
+  
+  
+  a:active {
+    color: rgb(125, 25, 184);
+  }

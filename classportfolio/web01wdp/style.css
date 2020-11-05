@@ -1,0 +1,73 @@
+
+h1 {
+font-family: cursive;
+color: mediumvioletred;
+text-align: center;
+font-size: 50px;
+}
+main{ background-color:black; 
+}
+#KR {
+    width: 150px;
+    border-color:hotpink;
+    border-width: 5px;
+    border-radius: 60%;
+    border-style:groove;
+ 
+    display: block;
+    padding-top: 0px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tamako {
+    width:"150px"; 
+
+    border-color:rgb(78, 11, 92);
+    border-width: 5px;
+   
+    border-style:ridge;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
+}
+#sword {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#canyon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-color: lightblue;
+    border-style: ridge;
+    border-width: 10px;
+    width: 150px;
+}
+#noise {
+
+    position: relative;
+    margin-top: 20px;
+    color: indigo;
+}
+
+#scarface {
+    width: 200px;
+
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border-color: palegreen;
+    border-style:dotted;
+
+}
+
+

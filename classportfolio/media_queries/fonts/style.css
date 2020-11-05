@@ -1,0 +1,27 @@
+*{
+
+    background-color: lemonchiffon;
+}
+
+body{
+    text-align: center;
+}
+h1{color: indianred;
+    text-align: center;
+    font-family: 'Seaweed Script';font-size: 50px; 
+    font-weight: 700;
+}
+html{
+
+    color: rgb(178, 174, 212); 
+}
+h2{color: indianred;
+    text-align: center;
+    font-family: 'Spectral SC';font-size: 50px; 
+    font-weight: 900;
+}
+h3{color: indianred;
+    text-align: center;
+
+    font-family: 'Varta';font-size: 50px; 
+    font-weight: 900;}

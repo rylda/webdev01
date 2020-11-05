@@ -1,0 +1,19 @@
+#grad1 {
+    height: 500vmin;
+    background-color: #cccccc;
+    background-image: linear-gradient(rgb(175, 136, 197), rgb(100, 209, 158));
+  }
+
+
+
+  #grad2 {
+    height: 500vmin;
+    background-color: #cccccc;
+    background-image: radial-gradient(rgb(40, 62, 156), rgb(245, 192, 122), rgb(171, 154, 175));
+    background-size: 100%;
+  }
+
+  p{
+font-size: 50px;
+    text-align: center;
+  }

@@ -1,0 +1,36 @@
+ 
+main {
+
+  background-color: rgb(199, 222, 230);
+}
+h1 { color:forestgreen}
+h2 { color:rgb(236, 195, 83)}
+p{color:rgb(250, 157, 172) ;
+font: size 30px; }
+
+.smaller-image{ width: 250px;}
+.thick-pink-border {
+    border-color:salmon;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  #SIMP {width: 150px;
+    border-color: rgb(238, 135, 50);
+    border-width: 5px;
+    border-radius: 60%;
+    border-style: dotted
+
+
+  }
+  #pig {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px ;
+    padding-right: 5px;
+    width: 100px;
+    border-color: rgb(238, 135, 50);
+    border-width: 5px;
+    border-radius: 60%;
+    border-style:dotted;
+  }
