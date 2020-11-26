@@ -6,25 +6,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modal Pop-up</title>
 </head>
+<a href="/intro" id="intro">Special Message from me to you!  </a> </head>
 <body>
 
-    <h2>Modal Example</h2>
+
+    <div class="messagepop pop">
+        <form method="post" id="new_message" action="/messages">
     
-    <!-- Trigger/Open The Modal -->
-    <button id="myBtn">Open Modal</button>
-    
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-    
-      <!-- Modal content -->
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>Some text in the Modal..</p>
+          <p><label for="body">Happy Thanksgiving!!!!!</label></p>
+          <p><a class="close" href="https://www.youtube.com/watch?v=dyRsYk0LyA8">Thank you now go enjoy Blackpink!!</a></p>
+        </form>
       </div>
-    
-    </div>
-    
+      
+     
 </body>    
 </html>

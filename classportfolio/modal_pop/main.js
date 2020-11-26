@@ -1,25 +1,23 @@
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
+function deselect(e) {
+  $('.pop').slideFadeToggle(function() {
+    e.removeClass('selected');
+  });    
 }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+$(function() {
+  $('#intro').on('click', function() {
+    if($(this).hasClass('selected')) {
+      deselect($(this));               
+    } else {
+      $(this).addClass('selected');
+      $('.pop').slideFadeToggle();
+    }
+    return false;
+  });
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+  
+});
+
+$.fn.slideFadeToggle = function(easing, callback) {
+  return this.animate({ opacity: 'toggle', height: 'toggle' }, 'fast', easing, callback);
+};
