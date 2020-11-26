@@ -15,7 +15,10 @@ $(function() {
     return false;
   });
 
-  
+  $('.close').on('click', function() {
+    deselect($('#contact'));
+    return false;
+  });
 });
 
 $.fn.slideFadeToggle = function(easing, callback) {
