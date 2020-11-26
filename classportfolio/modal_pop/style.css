@@ -1,8 +1,6 @@
 html {
     background-color:#cc643b;
-   
-    z-index:100;
-  }
+}
   
   .messagepop {
     background-color: pink;
@@ -13,19 +11,16 @@ html {
     width:230px;
     z-index:50;
     padding: 25px 25px 25px 25px;
-
-   
   }
   head{
       left: 40%;
   }
-  }
+  
   
   label {
     color: rgb(0, 0, 0);
     display: block;
     margin-bottom: 3px;
     padding-left: 15px;
-    
   }
   
